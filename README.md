@@ -1,113 +1,48 @@
-# marketing_analytics_ai_project
-Objectives: To apply data science tools for customer segmentation and prediction in marketing.
+# Marketing Analytics AI Project  
 
+**Objective:**  
+Apply data science tools to customer segmentation and sales forecasting in marketing, while showing the impact of AI on the 7Ps of the marketing mix.  
 
-1️⃣ data/
+---
 
-Place your raw dataset here (you already have tata_online_retail.csv).
+## 📌 Project Workflow  
 
-This folder only contains raw CSV files or any other raw datasets.
+### 1. Exploratory Data Analysis (EDA)  
+- Understand the dataset (check missing values, distributions, top-selling products, sales by country, etc.).  
+- Visualize sales trends (daily, monthly).  
+- Clean data (remove canceled invoices, handle missing values, create `TotalPrice`).  
 
-Do not modify the raw CSV directly—always work on a copy in your notebooks.
+👉 Output: Clear understanding of customer purchasing behavior.  
 
-2️⃣ notebooks/
+---
 
-This is where all your Jupyter notebooks will go, divided by tasks:
+### 2. Customer Segmentation + AI & the 7Ps  
+- Use **RFM analysis** (Recency, Frequency, Monetary).  
+- Apply **K-Means clustering** to group customers.  
+- Analyze how **AI insights** can improve the **7Ps of marketing**:  
+  - **Product**: Offer best-selling items to high-value clusters.  
+  - **Price**: Apply discounts for sensitive clusters.  
+  - **Promotion**: Personalize campaigns per segment.  
+  - **Place**: Focus on top-performing regions.  
+  - **People**: Assign dedicated customer service to VIP clusters.  
+  - **Process**: Automate segmentation with AI for real-time updates.  
+  - **Physical Evidence**: Strengthen brand trust through consistent messaging.  
 
-01_EDA_and_Segmentation.ipynb
+👉 Output: Segmentation visuals and insights on targeted strategies.  
 
-Purpose: Explore the dataset, clean it, and perform customer segmentation.
+---
 
-Steps inside the notebook:
+### 3. Sales Forecasting with AI  
+- Aggregate sales by **day** and **month**.  
+- Apply forecasting models:  
+  - **Prophet** (main model).  
+  - Optional: ARIMA or Holt-Winters.  
+- Predict sales for the next 90 days.  
+- Visualize forecast with trend & seasonality components.  
 
-Import libraries (pandas, numpy, matplotlib, seaborn, sklearn).
+👉 Output: Sales forecast charts, business insights on demand trends.  
 
-Load CSV from ../data/tata_online_retail.csv.
+---
 
-Quick exploration: data.head(), data.info(), data.describe().
+## 📂 Repository Structure  
 
-Data cleaning:
-
-Handle missing values (CustomerID, Description).
-
-Convert InvoiceDate to datetime.
-
-Remove canceled invoices if needed (InvoiceNo starting with 'C').
-
-Feature engineering:
-
-Create TotalPrice = Quantity * UnitPrice.
-
-Aggregate data per customer for segmentation.
-
-Customer segmentation using clustering (KMeans).
-
-Save visuals in ../visuals/ (optional: plt.savefig("../visuals/customer_segmentation.png")).
-
-02_Sales_Forecasting.ipynb
-
-Purpose: Predict future sales using AI/ML.
-
-Steps inside the notebook:
-
-Aggregate sales by date (daily/weekly/monthly).
-
-Handle missing dates or gaps.
-
-Use time series models:
-
-ExponentialSmoothing (Holt-Winters)
-
-Optional: ARIMA/Prophet
-
-Visualize actual vs predicted sales.
-
-Save forecast plots in ../visuals/.
-
-03_Sentiment_Analysis.ipynb
-
-Purpose: Analyze customer reviews or social media sentiment.
-
-Steps inside the notebook:
-
-Collect text data (reviews, tweets, etc.).
-
-Clean text (remove stopwords, punctuation).
-
-Use sentiment analysis libraries:
-
-TextBlob or VADER for quick sentiment scoring.
-
-Optional: Fine-tuned ML/NLP models for deeper insights.
-
-Visualize sentiment distributions.
-
-Save sentiment plots in ../visuals/.
-
-3️⃣ visuals/
-
-Save all charts, plots, and graphs here.
-
-Example filenames:
-
-customer_segmentation.png
-
-sales_forecast_plot.png
-
-sentiment_distribution.png
-
-4️⃣ reports/
-
-Store your final project report here.
-
-Include:
-
-Executive summary
-
-Methodology
-
-Key findings
-
-Visuals (link to visuals/)
-
-Recommendations
