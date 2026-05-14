@@ -44,5 +44,4 @@ Apply data science tools to customer segmentation and sales forecasting in marke
 
 ---
 
-## 📂 Repository Structure  
 
