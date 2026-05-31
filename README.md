@@ -19,7 +19,7 @@ The objective of this project is to improve supply chain efficiency by:
 * Supporting data-driven decision-making
 
 
-  Supply Chain Model
+     Supply Chain Model
 
 The analysis focuses on the following supply chain structure:
 
@@ -28,8 +28,7 @@ The analysis focuses on the following supply chain structure:
 This model was used to evaluate inventory flow, operational performance, and potential optimization opportunities throughout the supply chain.
 
 
-
-      Analytical Approach
+     Analytical Approach
 
 The project was developed using Python and business analytics methodologies to:
 
@@ -41,7 +40,7 @@ The project was developed using Python and business analytics methodologies to:
 * Simulate optimization scenarios
 
 
-      Key Findings
+     Key Findings
 
 ### Inventory Cost Analysis
 
@@ -66,8 +65,8 @@ Key operational metrics were developed to measure:
 These KPIs provided a baseline for evaluating optimization opportunities.
 
 
+     Optimization Scenarios
 
-      Optimization Scenarios
 
 Several improvement scenarios were evaluated:
 
@@ -84,7 +83,7 @@ Evaluated opportunities to reduce delivery times and improve service performance
 Analyzed inventory levels to identify opportunities for reducing excess stock while maintaining product availability.
 
 
-      Business Impact
+     Business Impact
 
 The analysis demonstrates how data analytics can support:
 
@@ -97,7 +96,7 @@ The analysis demonstrates how data analytics can support:
 The project highlights how organizations can leverage analytics to improve visibility, reduce costs, and enhance overall supply chain performance.
 
 
-      Technologies
+     Technologies
 
 * Python
 * Pandas
@@ -108,7 +107,7 @@ The project highlights how organizations can leverage analytics to improve visib
 * Jupyter Notebook
 
 
-      Skills Demonstrated
+     Skills Demonstrated
 
 * Supply Chain Analytics
 * Business Analytics
@@ -119,8 +118,7 @@ The project highlights how organizations can leverage analytics to improve visib
 * Operational Performance Analysis
 * Data-Driven Decision Making
 
-
-      Author
+     Author
 
 **Dési Essis**
 
