@@ -19,7 +19,7 @@ The dataset contains transactional records from a UK-based online retailer, incl
 
 ### Customer Segmentation (K-Means Clustering)
 
-![Customer Segmentation](visuals/customer_clusters.png.png)
+![Customer Segmentation](visuals/customer_clusters.png)
 
 ### Sales Forecast (Next 90 Days)
 
