@@ -1,46 +1,125 @@
-# Marketing Analytics AI Project  
+# 📊 Marketing Analytics Using AI & Machine Learning
 
-**Objective:**  
-Apply data science tools to customer segmentation and sales forecasting in marketing, while showing the impact of AI on the 7Ps of the marketing mix.  
+## Project Overview
 
----
+This project applies Artificial Intelligence (AI) and Machine Learning techniques to analyze customer behavior and forecast future sales using the Online Retail dataset.
 
-## 📌 Project Workflow  
-
-### 1. Exploratory Data Analysis (EDA)  
-- Understand the dataset (check missing values, distributions, top-selling products, sales by country, etc.).  
-- Visualize sales trends (daily, monthly).  
-- Clean data (remove canceled invoices, handle missing values, create `TotalPrice`).  
-
-👉 Output: Clear understanding of customer purchasing behavior.  
+The analysis combines customer segmentation, sales forecasting, and marketing strategy recommendations to demonstrate how data-driven insights can support business decision-making and improve marketing effectiveness.
 
 ---
 
-### 2. Customer Segmentation + AI & the 7Ps  
-- Use **RFM analysis** (Recency, Frequency, Monetary).  
-- Apply **K-Means clustering** to group customers.  
-- Analyze how **AI insights** can improve the **7Ps of marketing**:  
-  - **Product**: Offer best-selling items to high-value clusters.  
-  - **Price**: Apply discounts for sensitive clusters.  
-  - **Promotion**: Personalize campaigns per segment.  
-  - **Place**: Focus on top-performing regions.  
-  - **People**: Assign dedicated customer service to VIP clusters.  
-  - **Process**: Automate segmentation with AI for real-time updates.  
-  - **Physical Evidence**: Strengthen brand trust through consistent messaging.  
+## Dataset
 
-👉 Output: Segmentation visuals and insights on targeted strategies.  
+**Online Retail Dataset (Kaggle)**
+
+The dataset contains transactional records from a UK-based online retailer, including customer purchases, product information, sales values, and transaction dates.
 
 ---
 
-### 3. Sales Forecasting with AI  
-- Aggregate sales by **day** and **month**.  
-- Apply forecasting models:  
-  - **Prophet** (main model).  
-  - Optional: ARIMA or Holt-Winters.  
-- Predict sales for the next 90 days.  
-- Visualize forecast with trend & seasonality components.  
+## Key Visualizations
 
-👉 Output: Sales forecast charts, business insights on demand trends.  
+### Customer Segmentation (K-Means Clustering)
+
+![Customer Segmentation](visuals/customer_segments.png)
+
+### Sales Forecast (Next 90 Days)
+
+![Sales Forecast](visuals/sales_forecast.png)
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](visuals/monthly_sales_trend.png)
 
 ---
 
+## Project Workflow
+
+### Exploratory Data Analysis (EDA)
+
+* Cleaned and prepared transactional data.
+* Removed cancelled transactions and handled missing values.
+* Analyzed sales trends, product performance, and geographic sales distribution.
+* Created the `TotalPrice` feature for revenue analysis.
+
+### Customer Segmentation
+
+* Performed RFM (Recency, Frequency, Monetary) analysis.
+* Applied K-Means clustering to identify customer groups.
+* Classified customers into:
+
+  * Standard Customers
+  * Inactive Customers
+  * Loyal Customers
+  * Super VIP Customers
+
+### Sales Forecasting
+
+* Aggregated historical sales data.
+* Built a Prophet forecasting model.
+* Generated a 90-day sales forecast.
+* Visualized future sales trends and confidence intervals.
+
+### Marketing Recommendations
+
+* Applied insights to the 7Ps Marketing Mix framework:
+
+  * Product
+  * Price
+  * Place
+  * Promotion
+  * People
+  * Process
+  * Physical Evidence
+
+---
+
+## Key Findings
+
+* Identified four distinct customer segments using RFM analysis and K-Means clustering.
+* Super VIP customers represented a very small portion of customers but generated the highest spending.
+* Inactive customers were identified as a key target for re-engagement campaigns.
+* Sales analysis revealed clear seasonal purchasing patterns.
+* Prophet forecasting provided actionable insights for demand planning and inventory management.
+* Customer insights were translated into targeted marketing recommendations using the 7Ps framework.
+
+---
+
+## Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Prophet
+* Jupyter Notebook
+
+---
+
+## Project Structure
+
+```text
+Marketing-Analytics-AI/
+│
+├── data/
+├── notebooks/
+├── visuals/
+├── report/
+│   └── Marketing_Analytics_AI_ML_Report.pdf
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Full Report
+
+📄 [View Full Project Report](report/Marketing_Analytics_AI_ML_Report.pdf)
+
+---
+
+## Author
+
+**Marie Essis**
+MBA in Data Analytics
