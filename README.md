@@ -119,5 +119,6 @@ Marketing-Analytics-AI/
 
       Author
 
-**Marie Essis**
-MBA in Data Analytics
+**Dési Essis**
+
+MBA in Data Science & Artificial Intelligence
