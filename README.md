@@ -118,7 +118,9 @@ The project highlights how organizations can leverage analytics to improve visib
 * Operational Performance Analysis
 * Data-Driven Decision Making
 
-     Author
+
+  Author
+  
 
 **Dési Essis**
 
