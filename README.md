@@ -115,7 +115,7 @@ Marketing-Analytics-AI/
 
 ## Full Report
 
-📄 [View Full Project Report](report/Marketing_Analysis_Report.pdf)
+📄 [View Full Project Report](reports/Marketing_Analysis_Report.pdf)
 
 ---
 
