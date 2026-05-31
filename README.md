@@ -27,7 +27,7 @@ The dataset contains transactional records from a UK-based online retailer, incl
 
 ### Monthly Sales Trend
 
-![Monthly Sales Trend](visuals/monthly_sales_trend.png)
+![Monthly Sales Trend](visuals/monthly_sales.png)
 
 ---
 
