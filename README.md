@@ -1,26 +1,25 @@
-# 📊 Marketing Analytics Using AI & Machine Learning
+#  Marketing Analytics Using AI & Machine Learning
 
-## Project Overview
+    Project Overview
 
 This project applies Artificial Intelligence (AI) and Machine Learning techniques to analyze customer behavior and forecast future sales using the Online Retail dataset.
 
 The analysis combines customer segmentation, sales forecasting, and marketing strategy recommendations to demonstrate how data-driven insights can support business decision-making and improve marketing effectiveness.
 
----
 
-## Dataset
+    Dataset
 
 **Online Retail Dataset (Kaggle)**
 
 The dataset contains transactional records from a UK-based online retailer, including customer purchases, product information, sales values, and transaction dates.
 
----
 
-## Key Visualizations
+
+    Key Visualizations
 
 ### Customer Segmentation (K-Means Clustering)
 
-![Customer Segmentation](visuals/customer_segments.png)
+![Customer Segmentation](visuals/customer_clusters.png.png)
 
 ### Sales Forecast (Next 90 Days)
 
@@ -32,7 +31,7 @@ The dataset contains transactional records from a UK-based online retailer, incl
 
 ---
 
-## Project Workflow
+   Project Workflow
 
 ### Exploratory Data Analysis (EDA)
 
@@ -73,7 +72,7 @@ The dataset contains transactional records from a UK-based online retailer, incl
 
 ---
 
-## Key Findings
+     Key Findings
 
 * Identified four distinct customer segments using RFM analysis and K-Means clustering.
 * Super VIP customers represented a very small portion of customers but generated the highest spending.
@@ -84,7 +83,7 @@ The dataset contains transactional records from a UK-based online retailer, incl
 
 ---
 
-## Tools & Technologies
+     Tools & Technologies
 
 * Python
 * Pandas
@@ -96,8 +95,7 @@ The dataset contains transactional records from a UK-based online retailer, incl
 * Jupyter Notebook
 
 ---
-
-## Project Structure
+     Project Structure
 
 ```text
 Marketing-Analytics-AI/
@@ -119,7 +117,7 @@ Marketing-Analytics-AI/
 
 ---
 
-## Author
+      Author
 
 **Marie Essis**
 MBA in Data Analytics
